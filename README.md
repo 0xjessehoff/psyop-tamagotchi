@@ -1,11 +1,11 @@
-# MCUGotchi - A Tamagotchi P1 emulator for microcontrollers
+# PsyopTamagotchi - A Tamagotchi P1 emulator for microcontrollers
 
 
 ## Synopsis
 
-MCUGotchi is a Tamagotchi P1 emulator for microcontrollers relying on the hardware agnostic Tamagotchi P1 emulation library [TamaLIB](https://github.com/jcrona/tamalib/).
+PsyopGotchi is a Tamagotchi P1 emulator for microcontrollers relying on the hardware agnostic Tamagotchi P1 emulation library [TamaLIB](https://github.com/jcrona/tamalib/).
 
-![PSYOP](misc/OpenTama.jpg)
+![PSYOP](misc/psyopgotchi.jpg)
 
 For the time being, MCUGotchi supports the STM32F0 MCU from STMicroelectronics, more precisely the STM32F072 discovery board, and the [OpenTama board](https://github.com/Sparkr-tech/opentama) based on a STM32L072, with either an SPI SSD1306 OLED screen or an SPI UC1701x LCD screen connected to it, but it can basically run on any STM32F0/STM32L0 based board almost out of the box, and on any STM32 MCU with some modifications.
 
